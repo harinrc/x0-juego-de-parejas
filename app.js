@@ -1,10 +1,11 @@
 const firebaseConfig = {
   apiKey: "AIzaSyAvA8nK_WpH0EG3DRZC9v06oIfxzJpgpYA",
   authDomain: "implementacion-x0.firebaseapp.com",
+  databaseURL: "https://implementacion-x0-default-rtdb.firebaseio.com",
   projectId: "implementacion-x0",
   storageBucket: "implementacion-x0.firebasestorage.app",
   messagingSenderId: "866505507711",
-  appId: "1:866505507711:web:6d6649527c4ca79ba3d04a"
+  appId: "1:866505507711:web:1c38f1b3efd6c116a3d04a"
 };
 
 // Initialize Firebase
