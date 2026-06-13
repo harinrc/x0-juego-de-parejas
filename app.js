@@ -1,15 +1,14 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAvA8nK_WpH0EG3DRZC9v06oIfxzJpgpYA",
-  authDomain: "implementacion-x0.firebaseapp.com",
-  databaseURL: "https://implementacion-x0-default-rtdb.firebaseio.com",
-  projectId: "implementacion-x0",
-  storageBucket: "implementacion-x0.firebasestorage.app",
-  messagingSenderId: "866505507711",
-  appId: "1:866505507711:web:1c38f1b3efd6c116a3d04a"
+  apiKey: "AIzaSyAf65_YB-vDHDeVf6dUP6vMKLp_ctSy83A",
+  authDomain: "x0-para-ana-y-harin.firebaseapp.com",
+  databaseURL: "https://x0-para-ana-y-harin-default-rtdb.firebaseio.com",
+  projectId: "x0-para-ana-y-harin",
+  storageBucket: "x0-para-ana-y-harin.appspot.com",
+  messagingSenderId: "525006791707",
+  appId: "1:525006791707:web:1e07c6ebedc298c96a04be"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 const storage = firebase.storage();
 
